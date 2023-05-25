@@ -1,7 +1,2 @@
-### music-package
-* artist
-* group
-* track
-* album
-* playlist
-* queue
+### Description
+> Appears in the future
