@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 88
+target-version = ['py37', 'py38']  # Set the target Python versions
+include = '\.pyi?$'
+exclude = '''
+    /(\.git|\.hg|\.mypy_cache|\.tox|\.venv|_build|buck-out|build|dist)/
+'''
+skip-string-normalization = true  # Skip normalizing string quotes
+experimental-string-processing = true  # Enable experimental string processing

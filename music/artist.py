@@ -8,14 +8,12 @@ from music.track import Track
 
 @dataclass
 class Artist:
-    def __init__(self):
-        self.name: str
-        self.lastname: str
+    name: str
+    lastname: str
 
-        self.date_of_birth: date
-        self.date_of_death: date
+    date_of_birth: date
+    date_of_death: date
 
-        self.group_list: list[Group]
-        self.track_list: list[Track]
-        self.album_list: list[Album]
-
+    group_list: list[Group]
+    track_list: list[Track]
+    album_list: list[Album]
